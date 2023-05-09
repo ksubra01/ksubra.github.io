@@ -110,10 +110,7 @@ If the turtlebot camera detects a face without mask, it displays the output imag
 <p>Training data and Neural network for mask detection is custom made, MTCNN (inbuilt algorithm) is being used for face coordinates.</p>
 <p>An insight of Project Goals and procedure that we have followed and results obtained are briefly discussed 
 <a href="#g">here</a></p>
-<p>Team Members:<br />
-Karthick Subramanian<br />
-Rohan Khare<br />
-Praveen Paidi  </p>
+
 <h2 id="a-updatesrefreshes">a. Updates/Refreshes</h2>
 <ol>
 <li>We made our own Neural Network for the feature generation by taking training data of images from OAK-D camera.</li>
@@ -246,14 +243,14 @@ It is predicting good, doesn't take much time as well. </p>
 <li>
 <p><strong>Movement of Turtlebot</strong></p>
 <ul>
-<li>For the Face detection and creating a bounding box, it takes more time in real time.As a result, output window with bounding box has a lag of few seconds.
-  Which inturn carries the lag in moving the turtlebot towards the bounding box containing face without the mask.</li>
+<li>For the Face detection and creating a bounding box, it takes more time. As a result, output window with bounding box has a lag of few seconds.
+  This in turn carries the lag in moving the turtlebot towards the bounding box containing face without the mask.</li>
 </ul>
 </li>
 <li>
 <p><strong>Detection vs Movement</strong></p>
 <ul>
-<li>Although Face mask detection takes place at real time, turtlebot is moving after few moments later the detection and viceversa.</li>
+<li>Although Face mask detection is done in real time, turtlebot movement is seen after a few moments of detection.</li>
 </ul>
 </li>
 </ol>
